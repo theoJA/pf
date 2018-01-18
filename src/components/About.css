@@ -1,0 +1,96 @@
+.about-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.about-desc-container {
+  margin: 2em auto;
+  display: flex;
+  flex-direction: row;
+}
+
+div.about-desc-container img {
+  margin-right: 2em;
+}
+
+div.about-desc-container p {
+  margin: 0;
+}
+
+.about-picture {
+  width: 40vh;
+  height: 40vh;
+  border-radius: 10px;
+}
+
+.about-desc-text {
+  display: flex;
+  flex-direction: column;
+}
+
+div.about-desc-text p {
+  margin-bottom: 1em;
+}
+
+div h1 {
+  margin-top: 0em;
+}
+
+.what-i-do-container {
+  display: flex;
+  flex-direction: row;
+}
+
+div.what-i-do-container div i {
+  color: rgb(117, 174, 212);
+}
+
+div.what-i-do-container div p {
+  margin: 0em;
+}
+
+div.what-i-do-container div {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+div.what-i-do-container div {
+  margin: 1em 4em;
+}
+
+@media(max-width: 980px) {
+  .about-desc-container {
+    justify-content: center;
+    margin: 1em auto;
+    flex-wrap: wrap;
+  }
+  div.about-desc-container img {
+    margin-right: 0em;
+  }
+  div.about-desc-container p {
+    margin-top: 1em;
+  }
+  div.about-desc-text p:first-of-type {
+    margin-top: 2em;
+    margin-bottom: 0em;
+  }
+  div.about-desc-text p:nth-child(3) {
+    margin-top: 0em;
+    margin-bottom: 1em;
+  }
+  div h1 {
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+  .what-i-do-container {
+    flex-wrap: wrap;
+  }
+  div.what-i-do-container div {
+    margin: 1em 1em;
+  }
+}
