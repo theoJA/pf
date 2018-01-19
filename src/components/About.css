@@ -35,7 +35,8 @@ div.about-desc-text p {
 }
 
 div h1 {
-  margin-top: 0em;
+  margin-top: 1em;
+  font-family: "Archivo Black";
 }
 
 .what-i-do-container {
@@ -43,8 +44,12 @@ div h1 {
   flex-direction: row;
 }
 
+#what-i-do {
+  font-family: "Tenor Sans";
+}
+
 div.what-i-do-container div i {
-  color: rgb(117, 174, 212);
+  color: rgb(92, 176, 233);
 }
 
 div.what-i-do-container div p {
@@ -87,8 +92,9 @@ div.what-i-do-container div {
     margin-top: 1em;
     margin-bottom: 1em;
   }
-  .what-i-do-container {
+  .what-i-do-container{
     flex-wrap: wrap;
+    flex-direction: column;
   }
   div.what-i-do-container div {
     margin: 1em 1em;
