@@ -44,8 +44,8 @@ div.projects-container div p {
 }
 
 div.a-project h2 {
-  font-family: "Open Sans";
-  font-weight: 300;
+  font-weight: 100;
+  color: rgb(92, 176, 233);
 }
 
 @media(max-width: 980px) {
