@@ -5,6 +5,10 @@ export const About = () => {
   return (
     <div className="about-container">
 
+      <div>
+        <h1>ABOUT ME</h1>
+      </div>
+
       <div className="about-desc-container">
         <img className="about-picture" src={require("../images/about-picture-fixed.jpg")} alt="about-pic" />
         
@@ -25,7 +29,7 @@ export const About = () => {
       </div>
 
       <div>
-        <h1>What I Do</h1>
+        <h1 id="what-i-do">What I Do</h1>
       </div>
         
       <div className="what-i-do-container">
