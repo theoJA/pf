@@ -1,0 +1,23 @@
+.contact-container {
+  width: 85%;
+  margin: 2em auto;
+  padding-top: 60px;
+  padding-bottom: 20px;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: justify;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+div.contact-container div h1 {
+  text-align: center;
+  margin-top: 0.5em;
+}
+
+div.contact-container div p {
+  text-align: center;
+  margin-top: 0.5em;
+}
