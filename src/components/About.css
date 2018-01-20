@@ -15,6 +15,10 @@ div.about-desc-container img {
   margin-right: 2em;
 }
 
+div.what-i-do-container div h2 {
+  font-family: "Archivo Black";
+}
+
 div.about-desc-container p {
   margin: 0;
 }

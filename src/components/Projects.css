@@ -31,11 +31,21 @@ div.projects-container div p {
   text-align: center;
 }
 
+.projects-shots-pair {
+  display: flex;
+  flex-direction: row;
+}
+
 .a-project {
   display: flex;
+  flex: 1;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+}
+
+div.projects-shots-pair div:first-of-type {
+  margin-right: 3em;
 }
 
 .project-picture {
@@ -55,5 +65,14 @@ div.a-project h2 {
   }
   .projects-shots {
     margin: 1em 1em;
+  }
+}
+
+@media(max-width: 1500px) {
+  .projects-shots-pair {
+    flex-wrap: wrap;
+  }
+  div.projects-shots-pair div:first-of-type {
+    margin-right: 0em;
   }
 }

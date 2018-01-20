@@ -27,3 +27,8 @@ header {
   width: 100%;
   background-color: #eeeeee;
 }
+
+.page-content-blue {
+  width: 100%;
+  background-color: rgb(92, 176, 233);
+}

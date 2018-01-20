@@ -6,7 +6,7 @@ export const About = () => {
     <div className="about-container">
 
       <div>
-        <h1>ABOUT ME</h1>
+        <h1>About Me</h1>
       </div>
 
       <div className="about-desc-container">
@@ -46,7 +46,7 @@ export const About = () => {
           <i className="fa fa-code fa-4x"></i>
           <h2>Code</h2>
           <p>I mainly focus on front end development using React as my go-to JavaScript library. 
-            I also do quite a bit of back end development when the need arises. I have also developed 
+            I can do quite a bit of back end development when the need arises. I have also developed 
             cross-platform mobile applications using React Native.   
           </p>
         </div>

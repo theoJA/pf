@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Navbar, About, Projects } from "./components";
+import { Navbar, About, Projects, Skills, Contact } from "./components";
 import './App.css';
 
 class App extends Component {
@@ -15,6 +15,15 @@ class App extends Component {
         <div className="page-content-grey">
           <Projects/>
         </div>
+
+        <div className="page-content">
+          <Skills/>
+        </div>
+
+        <div className="page-content-blue">
+          <Contact/>
+        </div>
+
       </div>
     );
   }
