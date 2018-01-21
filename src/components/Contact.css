@@ -10,6 +10,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-bottom: 0em;
 }
 
 div.contact-container div h1 {
@@ -20,4 +21,10 @@ div.contact-container div h1 {
 div.contact-container div p {
   text-align: center;
   margin-top: 0.5em;
+}
+
+div.contact-inner-container i {
+  text-decoration: none;
+  color: #222222;
+  margin: 20px;
 }

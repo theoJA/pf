@@ -1,8 +1,6 @@
 .projects-container {
   width: 85%;
   margin: 2em auto;
-  padding-top: 60px;
-  padding-bottom: 20px;
   font-size: 20px;
   line-height: 30px;
   text-align: justify;
@@ -14,7 +12,8 @@
 
 div.projects-container div h1 {
   text-align: center;
-  margin-top: 0.5em;
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
 
 div.projects-container div p {

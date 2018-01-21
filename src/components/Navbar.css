@@ -15,6 +15,7 @@ div.banner-title div {
 
 div.banner-title div:first-of-type p:first-of-type, div.banner-title div:first-of-type p:nth-child(2) {
   font-family: "Archivo Black";
+  color: #222222;
   font-size: 50px;
   margin: 0;
 }
@@ -34,7 +35,7 @@ div.banner-title div:nth-child(2) {
   position: fixed;
   float: left;
   margin: 20px 36px;
-  color: #000;
+  color: #222222;
   font-weight: bold;
   font-size: 24px;
   font-family: "Archivo Black";
@@ -57,7 +58,7 @@ nav ul {
 }
 
 nav.black-navbar ul {
-  background: #000;
+  background: #222222;
 }
 
 nav ul li a.white-text {
@@ -75,13 +76,13 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  color: #000;
+  color: #222222;
   font-size: 24px;
 }
 
 .menu-icon {
   width: 100%;
-  background: #000;
+  background: #222222;
   text-align: right;
   box-sizing: border-box;
   padding: 15px 24px;
@@ -102,11 +103,11 @@ nav ul li a {
 
   nav ul {
     max-height: 0px;
-    background: #000;
+    background: #222222;
   }
 
   nav.black-navbar ul {
-    background: #000;
+    background: #222222;
   }
 
   .showing {

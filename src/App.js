@@ -8,19 +8,23 @@ class App extends Component {
     return (
       <div className="wrapper">
         <Navbar/>
-        <div className="page-content">
+
+        <span className="anchor" id="about-section"></span>
+        <div  className="page-content">
           <About/>
         </div>
 
-        <div className="page-content-grey">
+        <div  className="page-content-grey">
           <Projects/>
         </div>
 
-        <div className="page-content">
+        <span className="anchor" id="skills-section"></span>
+        <div  className="page-content">
           <Skills/>
         </div>
 
-        <div className="page-content-blue">
+        <span className="anchor" id="contact-section"></span>
+        <div  className="page-content-blue">
           <Contact/>
         </div>
 

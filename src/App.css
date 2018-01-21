@@ -31,4 +31,12 @@ header {
 .page-content-blue {
   width: 100%;
   background-color: rgb(92, 176, 233);
+  bottom: 0;
+}
+
+.anchor{
+  display: block;
+  height: 70px; /*same height as header*/
+  margin-top: -70px; /*same height as header*/
+  visibility: hidden;
 }

@@ -16,9 +16,9 @@ export const Navbar = () => {
           <div className="menu">
             <ul>
               <li><a href="#about-section">About</a></li>
-              <li><a href="#projects">Projects</a></li>
-              <li><a href="#skills">Skills</a></li>
-              <li><a href="#">Contact</a></li>
+              <li><a href="#projects-section">Projects</a></li>
+              <li><a href="#skills-section">Skills</a></li>
+              <li><a href="#contact-section">Contact</a></li>
             </ul>
           </div>
         
@@ -36,7 +36,6 @@ export const Navbar = () => {
           </div>  
         </div>
       </header>
-      <p id="about-section"></p>
     </div>
   );
 }

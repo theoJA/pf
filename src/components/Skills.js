@@ -3,7 +3,7 @@ import './Skills.css';
 
 export const Skills = () => {
   return (
-    <div id="skills" className="skills-container">
+    <div id="my-skills" className="skills-container">
 
       <div>
         <h1>My Skills</h1>
@@ -11,28 +11,28 @@ export const Skills = () => {
 
       <div className="skills-inner-container">
         <div className="a-skill">
-          <img className="skill-image" src={require("../images/skill-levels/beginner-2.png")}/>
+          <img className="skill-image" src={require("../images/skill-levels/beginner-2.png")} alt="skill-pic"/>
           <h2>Beginner</h2>
           <div className="tech-container">
             <i className="devicon-postgresql-plain-wordmark tech-font"></i>
             <div>
-              <img className="tech-image" src={require("../images/techs/graphql.svg")}/>
+              <img className="tech-image" src={require("../images/techs/graphql.svg")} alt="tech-pic"/>
               <p>GraphQL</p>
             </div>
             <i className="devicon-django-plain-wordmark tech-font"></i>
-            <i class="devicon-amazonwebservices-plain-wordmark tech-font"></i>
+            <i className="devicon-amazonwebservices-plain-wordmark tech-font"></i>
           </div>
         </div>
         
         <div className="a-skill">
-          <img className="skill-image" src={require("../images/skill-levels/intermediate.png")}/>
+          <img className="skill-image" src={require("../images/skill-levels/intermediate.png")} alt="skill-pic"/>
           <h2>Intermediate</h2>
           <div className="tech-container">
             <i className="devicon-python-plain-wordmark tech-font"></i>
             <i className="devicon-nodejs-plain-wordmark tech-font"></i>
             <i className="devicon-express-original-wordmark tech-font"></i>
             <div>
-              <img className="tech-image" src={require("../images/techs/redux.svg")}/>
+              <img className="tech-image" src={require("../images/techs/redux.svg")} alt="tech-pic"/>
               <p>Redux</p>
             </div>
             
@@ -40,7 +40,7 @@ export const Skills = () => {
         </div>
         
         <div className="a-skill">
-          <img className="skill-image" src={require("../images/skill-levels/advanced.png")}/>
+          <img className="skill-image" src={require("../images/skill-levels/advanced.png")} alt="skill-pic"/>
           <h2>Advanced</h2>
           <div className="tech-container">
             <i className="devicon-javascript-plain tech-font"></i>
