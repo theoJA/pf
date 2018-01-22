@@ -57,6 +57,24 @@ div.a-project h2 {
   color: rgb(92, 176, 233);
 }
 
+.projects-button {
+  border: none;
+  border-radius: 30px;
+  padding: 1em 2.5em;
+  background-color: #222222;
+  font-weight: bold;
+  font-family: "Roboto";
+  margin-bottom: 1.5em;
+  transition: 0.5s;
+  color: #fff;
+}
+
+.projects-button:hover {
+  cursor: pointer;
+  background-color: rgb(92, 176, 233);
+  color: #000;
+}
+
 @media(max-width: 980px) {
   .project-picture {
     width: 50vh;

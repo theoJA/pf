@@ -6,7 +6,7 @@ class App extends Component {
 
   render() {
     return (
-      <div className="wrapper">
+      <div id="banner-section" className="wrapper">
         <Navbar/>
 
         <span className="anchor" id="about-section"></span>

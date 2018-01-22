@@ -11,7 +11,7 @@ export const Navbar = () => {
             <i className="fa fa-bars fa-2x"></i>
           </div>
           
-          <div className="logo">TJA</div>
+          <a href="#banner-section"><div className="logo">TJA</div></a>
           
           <div className="menu">
             <ul>
