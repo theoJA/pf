@@ -27,7 +27,6 @@ class App extends Component {
         <div  className="page-content-blue">
           <Contact/>
         </div>
-
       </div>
     );
   }

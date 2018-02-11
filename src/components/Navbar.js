@@ -19,6 +19,8 @@ export const Navbar = () => {
               <li><a href="#projects-section">Projects</a></li>
               <li><a href="#skills-section">Skills</a></li>
               <li><a href="#contact-section">Contact</a></li>
+              <li><a href="https://drive.google.com/open?id=1eGgKzsMVPBusOISkSgq36afzg34C-a-O"
+                      target="_blank" rel="noopener noreferrer">Resume</a></li>
             </ul>
           </div>
         

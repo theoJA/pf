@@ -8,6 +8,7 @@ export const Projects = () => {
       <span className="anchor" id="projects-section"></span>
       <div>
         <h1>Things I've Done</h1>
+        <hr/>
       </div>
 
       <div className="projects-shots">

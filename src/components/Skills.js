@@ -7,6 +7,7 @@ export const Skills = () => {
 
       <div>
         <h1>My Skills</h1>
+        <hr/>
       </div>
 
       <div className="skills-inner-container">

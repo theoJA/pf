@@ -27,6 +27,7 @@ div.projects-container div p {
   flex-wrap: wrap;
   justify-content: center;
   margin: 1em auto;
+  margin-top: 2em !important;
   text-align: center;
 }
 
