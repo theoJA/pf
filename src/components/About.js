@@ -1,5 +1,5 @@
 import React from 'react';
-import "./About.css";
+import "../styles/About.css";
 
 export const About = () => {
   return (
@@ -35,20 +35,20 @@ export const About = () => {
         
       <div className="what-i-do-container">
         <div>
-          <i className="fa fa-pencil fa-4x"></i>
-          <h2>UI/UX</h2>
-          <p>I design iteratively through sketching and wireframing, and focus on creating a minimalistic yet 
-            intuitive interface. I always try to put myself in the user's shoes and critique my own 
-            designs as I go. I believe in the design philosophy that less is more. 
-          </p>
-        </div>
-        
-        <div>
           <i className="fa fa-code fa-4x"></i>
           <h2>Code</h2>
           <p>I mainly focus on front end development using React as my go-to JavaScript library. 
             I can do quite a bit of back end development when the need arises. I have also developed 
             cross-platform mobile applications using React Native.   
+          </p>
+        </div>
+
+        <div>
+          <i className="fa fa-pencil fa-4x"></i>
+          <h2>UI/UX</h2>
+          <p>I design iteratively through sketching and wireframing, and focus on creating a minimalistic yet 
+            intuitive interface. I always try to put myself in the user's shoes and critique my own 
+            designs as I go. I believe in the design philosophy that less is more. 
           </p>
         </div>
       </div>

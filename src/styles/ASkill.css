@@ -1,0 +1,16 @@
+.a-skill-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    border: 1px solid #d6d6d6;
+    border-radius: 20px;
+    padding: 5px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin: 5px;
+}
+  
+.tech-image {
+    width: 1.5em;
+    height: 1.5em;
+    margin-right: 8px;
+}

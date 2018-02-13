@@ -1,5 +1,5 @@
 import React from 'react';
-import "./Navbar.css";
+import "../styles/Navbar.css";
 
 export const Navbar = () => {
   return (
@@ -33,8 +33,8 @@ export const Navbar = () => {
           </div>  
 
           <div>
-            <p>DESIGNER</p>
             <p>DEVELOPER</p>
+            <p>DESIGNER</p>
           </div>  
         </div>
       </header>

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Navbar, About, Projects, Skills, Contact } from "./components";
-import './App.css';
+import './styles/App.css';
 
 class App extends Component {
 

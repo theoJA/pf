@@ -24,7 +24,7 @@ div.skills-container div h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 2em 2em;
+  margin: 2em 0.5em;
 }
 
 .skill-image {
@@ -44,16 +44,11 @@ div.a-skill h2 {
   align-items: center
 }
 
-.tech-font {
-  font-size: 3em;
-  margin: 4px;
-}
-
 .tech-image {
   width: 1.5em;
   height: 1.5em;
   margin-left: 3px;
-}
+  }
 
 div.tech-container div {
   display: flex;
